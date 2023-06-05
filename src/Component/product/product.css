@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-dashboard{
+    margin-top: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 44rem;
+}
+.cloth-card{
+    width: 18rem;
+    height:32rem;
+    margin-bottom:18px ;
+    overflow:auto
+}
+.all-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+.cloth-image{
+    height: 305px;
+}
+.price p{
+    margin-left: 47px;
+    margin-top: 24px;
+    font-weight: 700;
+}
+@media only screen and (max-width:900px){
+    .product-dashboard{
+        margin-top: 17px;
+        font-weight: bold;
+        color: white;
+        margin-left: 4rem;
+    }
+    .cloth-card{
+        width: 22rem;
+        height: 32rem;
+        text-align: center;
+        margin-bottom: 18px;
+        overflow: auto;
+    }
+
+}

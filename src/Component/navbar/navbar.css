@@ -1,0 +1,14 @@
+.my-cart{
+    color: black;
+    font-weight: bold;
+    margin-left: 62rem;
+}
+
+@media only screen and (max-width:900px){
+    .my-cart{
+        color: black;
+        font-weight: bold;
+        margin-left: 0px;
+
+    }
+}

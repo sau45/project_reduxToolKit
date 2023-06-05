@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one-card{
+    margin-bottom: 20px;
+    margin-left: 98px;
+    width: 49rem;
+    height: 34rem;
+    margin-top: 44px;
+
+}
